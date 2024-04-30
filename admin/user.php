@@ -31,6 +31,7 @@ else {
                                             <th width="100">Username</th>
                                             <th width="100">Full Name</th>
                                             <!-- <th width="75">Password</th> -->
+                                            <th width="75">Foto</th>
                                             <th width="100">aksi</th>
                                         </tr>
                                     </thead>
@@ -44,12 +45,20 @@ else {
                                             $link_hapus= "user_delete.php?id=$row[id]";
                                             $link_edit = "index.php?menu=user&aksi=edit&id=$row[id]";
                                             
+                                            $foto = "default.jpg";
+                                            if(!empty($row['foto'])) { $foto = $row['foto']; }
+                                            $link_foto = "../images/produk/$foto";
                                         ?>
                                         <tr>
                                             <td><?=$no;?></td>
                                             <td><?=$row['username'];?></td>
                                             <td><?=$row['fullname'];?></td>
                                             <!-- <td align="right"><?=$row['password'];?></td> -->
+
+                                            <td>
+                                                <img src="<?=$link_foto;?>" width="75" height="75">
+                                            </td>
+                                            
                                             <td>
                                                 <a href="<?=$link_edit;?>" class="btn btn-success" >
                                                     <i class="fas fa-edit"></i>

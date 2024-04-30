@@ -58,7 +58,7 @@ include "admin/connection.php";
     <section class="menu" id="product" style="padding:20px 0px;">
         <div id="product-text">
             <h1>Menu</h1>
-            <h2>Our Mille Crepes</h2>
+            <h2>Our Menu</h2>
         </div>
 
         <div class="variant">

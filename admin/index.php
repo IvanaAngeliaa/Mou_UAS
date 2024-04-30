@@ -85,6 +85,7 @@ include "connection.php";
                 if($menu == "") { include "dashboard.php"; }
                 else if($menu == "user") { include "user.php"; }
                 else if($menu == "produk") { include "produk.php"; }
+                else if($menu == "persediaan") { include "persediaan.php"; }
                 else { include "blank_page.php"; }
                 ?>
                 <!-- /.container-fluid -->
@@ -96,7 +97,7 @@ include "connection.php";
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Your Website 2021</span>
+                        <span>Copyright &copy; Mou 2021</span>
                     </div>
                 </div>
             </footer>

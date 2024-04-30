@@ -21,7 +21,7 @@
 
             <li class="nav-item">
                 <a class="nav-link" href="../index.php">
-                    <i class="fas fa-home"></i>
+                    <i class="fas fa-globe"></i>
                     <span><b>Website Mou </b></span></a>
             </li>
 
@@ -43,6 +43,12 @@
                 <a class="nav-link" href="index.php?menu=produk">
                     <i class="fas fa-box"></i>
                     <span><b>Produk</b></span></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="index.php?menu=persediaan">
+                    <i class="fas fa-box-open"></i>
+                    <span><b>Persediaan</b></span></a>
             </li>
 
             <!-- Divider -->

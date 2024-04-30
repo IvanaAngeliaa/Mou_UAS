@@ -32,6 +32,12 @@ $data  = mysqli_fetch_array($query);
                                 <label>Password: <sup class="text-danger">Kosongkan jika tidak mengubah password</sup></label>
                                 <input type="password" class="form-control" placeholder="Masukan password" name="password" >
                             </div>
+                            <div class="form-group">
+                                <label>Profil:
+                                    <sup class="text-danger">Kosongkan jika tidak mengupload foto</sup>
+                                </label>
+                                <input type="file" class="form-control" placeholder="Masukan foto" name="profil">
+                                <div>
                         </div>
                         <div class="card-footer">
                             <button type="submit" class="btn btn-primary">

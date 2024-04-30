@@ -30,7 +30,7 @@
                                         </div>
                                         <div class="card-body">
                                             
-                                            <img src="../images/iva.png" class="col-sm-12">
+                                            <img style="border-radius: 1000px" src="../images/ivaa.png" class="col-sm-12">
                                         </div>
                                         <div class="card-footer btn-custom" >
                                             <div >
@@ -64,17 +64,17 @@
                                     <div class="card  h-100 ">
                                         <div class="card-body">
                                             <div align="center" style="font-weight:bold;" class="text-custom">
-                                                Yopita<br>
-                                                (22200028)
+                                                Clay Aiken<br>
+                                                (22100012)
                                             </div>
                                         </div>
                                         <div class="card-body">
                                             
-                                            <img src="../images/yopi.png" class="col-sm-12">
+                                            <img style="border-radius: 1000px" src="../images/clay.png" class="col-sm-12">
                                         </div>
                                         <div class="card-footer btn-custom">
                                             <div >
-                                               <i> "Helping people live better lives" </i>
+                                               <i> "Lebih baik mencoba daripada tidak" </i>
                                             </div>
                                         </div>
                                     </div>
